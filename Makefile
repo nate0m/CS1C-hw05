@@ -12,4 +12,4 @@ clean:
 	rm hw05 *.o
 
 tar:
-	tar cf hw05.tar hw05.src Makefile hw05.cpp hw05.h lotto.cpp 
+	tar cf hw05.tar hw05.src Makefile question.txt hw05.cpp hw05.h lotto.cpp 

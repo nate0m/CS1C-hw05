@@ -1,0 +1,6 @@
+1. The STL is the 'standard template library' it is a standardized templated library that contains algorithms, containers, functions, and iterators. A vector is a dynamic array within the STL.
+2. Resize changes the size of the container other than that vectors automatically change there size when elements are added or removed - push_back(), insert().
+3. The STL array contain is a statically declared array with built in member functions similar to a vector. A built in array differs because it does not have these member functions, and a vector differs because it is dynamically allocated.
+4. The vector function reserve() dynamically allocated the specified amount of space in the HEAP aka changes capacity. The vector function resize() changes the container size to the specified amount of space.
+5. Begin and end return an iterator pointing to the first and last element of a container respectively. 6. for( int i = 1; i <= 5; i++) vector.push_back(i); // fills the array with integers 1-5
+
